@@ -7,17 +7,21 @@ https://posty-worker-api.jramakrishnan.workers.dev/api/posts
 Api to create a post and write it into KV
 https://posty-worker-api.jramakrishnan.workers.dev/api/makepost
 Example Body:
+```
 {
 "title":"New Post",
 "username":"JayasriRamakrishnan",
 "content":"I had a wonderful day",
 "image":"https://pbs.twimg.com/profile_images/1313131647315910666/opulcRqc.jpg"
 }
+```
 * POST /api/updatepost
 Additional API to update likes and comments from web app for the respective posts
 https://posty-worker-api.jramakrishnan.workers.dev/api/updatepost
 Example body:
-{"title":"New Post",
+```
+{
+"title":"New Post",
 "username":"JayasriRamakrishnan",
 "content":"I had a wonderful day",
 "image":"https://pbs.twimg.com/profile_images/1313131647315910666/opulcRqc.jpg",
@@ -25,4 +29,5 @@ Example body:
 "love" : 4, 
 "comments": []
 }
+```
 
