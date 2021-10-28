@@ -2,10 +2,10 @@
 Consists of files written with typescript template for the following apis:
 * GET /api/posts
 Gets all the posts from KV
-https://posty-worker-api.jramakrishnan.workers.dev/api/posts
+https://posty-worker-api.jramakrishnan.workers.dev/api/posts   
 * POST /api/makepost
 Api to create a post and write it into KV
-https://posty-worker-api.jramakrishnan.workers.dev/api/makepost
+https://posty-worker-api.jramakrishnan.workers.dev/api/makepost  
 Example Body:
 ```
 {
@@ -17,7 +17,7 @@ Example Body:
 ```
 * POST /api/updatepost
 Additional API to update likes and comments from web app for the respective posts
-https://posty-worker-api.jramakrishnan.workers.dev/api/updatepost
+https://posty-worker-api.jramakrishnan.workers.dev/api/updatepost  
 Example body:
 ```
 {
