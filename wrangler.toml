@@ -1,0 +1,15 @@
+name = "posty-worker-api"
+type = "javascript"
+
+account_id = "ccb16c3443e8f35a9eb133915971ee72"
+workers_dev = true
+route = ""
+zone_id = ""
+compatibility_date = "2021-10-20"
+kv_namespaces = [ 
+	 { binding = "posty_kv", id = "11cafbf811a74f87a32ccf52361fd332" }
+]
+[build]
+command = "npm install && npm run build"
+[build.upload]
+format = "service-worker"
