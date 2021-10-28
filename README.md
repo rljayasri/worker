@@ -1,6 +1,7 @@
 # Posty App - Cloudflare workers  
 ## Workers URL/Homepage: https://posty-worker-api.jramakrishnan.workers.dev/  
 This worker is being used by the social media web app hosted on pages  
+#### Cloudflare KV used: posty-worker-posty_kv  
     
 Consists of files written with typescript template for the following apis:
 ### 1. GET /api/posts
